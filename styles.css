@@ -395,4 +395,7 @@ UNDER 480
         margin-left: auto;
         margin-right: auto;
     }
+    .ell-results {
+        margin: 0 auto;
+    }
 }
