@@ -286,14 +286,11 @@ header {
     font-size: 1em;
 }
 
-.row .quotes {
-    display: table;
-}
 
-.quotes [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
+.quote-container {
+    display: table;
+    width: 100%;
+    margin: 0 0 1em 0;
 }
 
 .quote-icon {
@@ -301,10 +298,21 @@ header {
     color: #ffffff;
     font-size: 52px;
     font-family: Georgia, serif;
+    padding: 5px;
 }
 
-p.quote {
+.quote, .quote-icon {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.quote {
+    padding: 0 0 0 1em;
+}
+
+p.quote-body {
  color: #000000;
+ letter-spacing: .25px;
 
 }
 
