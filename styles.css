@@ -6,13 +6,14 @@
 
 body {
     padding-top: 0px;
-   font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 
-p, li {
+p,
+li {
     font-size: 1.8rem;
-    color:#243a79;
+    color: #243a79;
 }
 
 li {
@@ -32,6 +33,7 @@ p.number-icon {
     margin: 1.2em 0 0 0;
     font-weight: bold;
 }
+
 p.summary {
     clear: both;
     font-weight: bold;
@@ -78,18 +80,12 @@ p.summary {
 /* Main Content */
 
 .left-col {
-    min-height: 1350px;
     padding-top: 20px;
 
 }
 
 .right-col {
-    min-height: 1350px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-
+    margin: 0;
 }
 
 h2 {
@@ -216,9 +212,6 @@ header {
     padding-top: 0px;
 }
 
-.vidwrap {
-    border: solid 3px #f1b61a;
-}
 
 .banner-content {
     display: block;
@@ -269,6 +262,12 @@ header {
     text-decoration: none;
 }
 
+.banner-box {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: rgba(241, 182, 26, .85);
+}
+
 .vidwrap h2 {
     text-transform: none;
     font-size: 24px;
@@ -301,7 +300,8 @@ header {
     padding: 5px;
 }
 
-.quote, .quote-icon {
+.quote,
+.quote-icon {
     display: table-cell;
     vertical-align: top;
 }
@@ -311,14 +311,14 @@ header {
 }
 
 p.quote-body {
- color: #000000;
- letter-spacing: .25px;
+    color: #000000;
+    letter-spacing: .25px;
 
 }
 
 p.quote-author {
     font-size: 1.1em;
-    margin: 0 0 0 1em; 
+    margin: 0 0 0 1em;
     text-indent: -1em;
     color: #000000;
 }
@@ -395,7 +395,14 @@ UNDER 480
         margin-left: auto;
         margin-right: auto;
     }
+
     .ell-results {
         margin: 0 auto;
+    }
+    header {
+        padding-top: 80px;
+    }
+    .banner-box {
+        background: rgba(241, 182, 26, .55);
     }
 }
