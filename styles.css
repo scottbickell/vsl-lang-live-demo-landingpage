@@ -405,4 +405,8 @@ UNDER 480
     .banner-box {
         background: rgba(241, 182, 26, .55);
     }
+    h2 {
+        letter-spacing: 0;
+        font-size: 36px;
+    }
 }
